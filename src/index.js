@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import ModuleTitle from "./components/ModuleTitle";
-import NameLength from "./components/NameLength";
+import Clicky from "./exampleFunctional/Clicky";
+import CountDown from "./exampleFunctional/CountDown";
+import LoginForm from "./exampleFunctional/LoginForm";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
+
 root.render(
     <React.StrictMode>
-        <ModuleTitle title='front-end development' />
-        <NameLength />
+        <LoginForm />
     </React.StrictMode>
 );
